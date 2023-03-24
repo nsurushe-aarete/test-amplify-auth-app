@@ -10,7 +10,7 @@ const App = ({ signOut, user }) => {
     <div style={styles.container}>
       <Heading level={1}>Hello {user.username}</Heading>
       <Button onClick={signOut} style={styles.button}>Sign out</Button>
-      <h2>Amplify Todos</h2>
+      <h2>Congratulations! Your amplify app is working!</h2>
       </div>
   );
 }
