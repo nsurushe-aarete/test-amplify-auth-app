@@ -1,8 +1,8 @@
 import { withAuthenticator, Button, Heading } from '@aws-amplify/ui-react';
 import { Amplify} from 'aws-amplify'
+import '@aws-amplify/ui-react/styles.css';
 import awsExports from "./aws-exports";
 Amplify.configure(awsExports);
-import '@aws-amplify/ui-react/styles.css';
 
 
 const App = ({ signOut, user }) => {
